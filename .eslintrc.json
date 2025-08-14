@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint:recommended", "plugin:@angular-eslint/recommended"],
+  "rules": {
+    "@angular-eslint/component-selector": [
+      "error",
+      { "type": "element", "prefix": "app", "style": "kebab-case" }
+    ]
+  }
+}
