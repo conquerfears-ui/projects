@@ -1,7 +1,7 @@
 {
   "name": "Angular Dev",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install -g @angular/cli && cd my-projects && npm install",
+  "postCreateCommand": "npm install -g @angular/cli && ng new my-projects --directory my-projects --routing --style css && cd my-projects && npm install @angular/material @angular/cdk",
   "customizations": {
     "vscode": {
       "extensions": [
